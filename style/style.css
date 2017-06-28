@@ -1,0 +1,98 @@
+html, body{
+	/*width: 100%;
+	height: 100%;*/
+}
+
+body{
+	font-size: 14px;
+	line-height: 1.5;
+	color:black;
+	background-color: white;
+	display: block;
+}
+
+.navbar{
+	margin-bottom: 0px;
+}
+
+.welcome{
+	padding-top: 150px;
+
+}
+
+.button{
+	padding-top: 25px;
+}
+
+.jumbotron-top{
+	position: relative;
+	background-image: url(https://images.pexels.com/photos/58997/pexels-photo-58997.jpeg?w=940&h=650&auto=compress&cs=tinysrgb);
+	background-size: cover;
+	min-height: 100vh;
+	margin-bottom: 0px;
+
+}
+
+.profile-create{
+	padding: 100px;
+	display: block;
+	background-color: #ea7210;
+}
+
+.profile-link{
+	padding: 30px;
+	display: block;
+	border: white 1px solid;
+
+}
+
+.samples{
+	padding: 50px;
+	display: block;
+}
+
+
+.thumbnails{
+	text-align: center;
+
+}
+
+.thumbnail img{
+	height: 250px;
+}
+
+#footer-left{
+	width: 50%;
+}
+
+#footer-right{
+	width: 50%;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+h1{ 
+	text-align: center; 
+
+}
+
+h3{
+	text-align: center;
+	padding: 20px;
+}
+
+p{
+	text-align: center;
+
+}
+
+
+
+
+
+
+
+
