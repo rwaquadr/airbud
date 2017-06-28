@@ -8,8 +8,8 @@ html, body{
 body{
 	font-size: 14px;
 	line-height: 1.5;
-	color:black;
-	background-color: white;
+	/*color:black;*/
+	/*background-color: white;*/
 	display: block;
 }
 
@@ -20,7 +20,7 @@ body{
 
 .welcome{
 	padding-top: 150px;
-
+	color: white;
 }
 
 .button{
@@ -31,10 +31,14 @@ body{
 	position: relative;
 	background-image: url(https://images.pexels.com/photos/58997/pexels-photo-58997.jpeg?w=940&h=650&auto=compress&cs=tinysrgb);
 	background-size: cover;
-	min-height: 100vh;
+	background-repeat: no-repeat;
+	height: 100vh;
 	margin-bottom: 0px;
 
+	/*max-width: 100%;*/
+	/*height: auto;*/
 }
+
 
 .profile-create{
 	padding: 100px;
@@ -64,12 +68,8 @@ body{
 	height: 250px;
 }
 
-#footer-left{
-	width: 50%;
-}
-
-#footer-right{
-	width: 50%;
+.jumbotron-bottom{
+	margin-bottom: 0px;
 }
 
 a{
@@ -80,6 +80,7 @@ a{
 h1{ 
 	text-align: center; 
 	font-family: Pacifico;
+	color: white;
 
 }
 
@@ -94,6 +95,10 @@ p{
 
 }
 
+img{
+	max-width: 100%;
+	height: auto;
+}
 
 
 
