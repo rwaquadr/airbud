@@ -18,6 +18,10 @@ body{
 	font-family: Pacifico;
 }
 
+.navbar-default{
+	background-color: orange;
+}
+
 .welcome{
 	padding-top: 150px;
 	color: white;
@@ -56,11 +60,13 @@ body{
 .samples{
 	padding: 50px;
 	display: block;
+	margin-bottom: 0px;
 }
 
 
 .thumbnails{
 	text-align: center;
+	
 
 }
 
@@ -69,12 +75,29 @@ body{
 }
 
 .jumbotron-bottom{
+	height: 75%;
 	margin-bottom: 0px;
+	background: url(https://images.pexels.com/photos/128817/pexels-photo-128817.jpeg?w=940&h=650&auto=compress&cs=tinysrgb)center no-repeat;
+	
 }
+
+.footer-section{
+	background-color: #ea7210;
+}
+
+.footer-header{
+	padding-top: 100px;
+}
+
+.footer-button{
+	padding-top: 30px;
+}
+
 
 a{
 	text-decoration: none;
 	color: white;
+	font-family: Pacifico;
 }
 
 h1{ 
