@@ -54,7 +54,13 @@ body{
 	padding: 30px;
 	display: block;
 	border: white 1px solid;
+	transition: color 0.5s ease;
+	text-decoration: none;
+}
 
+.profile-link:hover{
+	color:black;
+	text-decoration: underline;
 }
 
 .samples{
@@ -97,6 +103,45 @@ body{
 	padding-top: 30px;
 }
 
+.container{
+	display: flex;
+	width: 100%;
+	padding-top: 125px;
+	padding-bottom: 0px;
+}
+
+.FAQ-Jumbo{
+	background: url(https://images.pexels.com/photos/89249/pexels-photo-89249.png?w=940&h=650&auto=compress&cs=tinysrgb)no-repeat center center;
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	margin-bottom: 0px;
+}
+
+.FAQ-Header{
+	padding-top: 100px;
+}
+
+.FAQ-Button{
+	padding-top: 30px;
+}
+
+.Donate-Header{
+	padding-top: 100px;
+}
+
+.Donate-Button{
+	padding-top: 30px;
+}
+
+.Donate-Jumbo{
+	background: url(https://images.pexels.com/photos/192550/pexels-photo-192550.jpeg?w=940&h=650&auto=compress&cs=tinysrgb)no-repeat center center;
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	margin-bottom: 0px;
+	margin-right: 0px;
+}
 
 a{
 	text-decoration: none;
